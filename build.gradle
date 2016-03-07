@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'idea'
+apply plugin: 'gradle-one-jar'
 
 // Java Version Compatibility
 sourceCompatibility = 1.8
@@ -14,6 +15,15 @@ version = '1.0'
 repositories {
     mavenCentral()
     jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+    }
 }
 
 dependencies {
@@ -63,4 +73,13 @@ applicationDefaultJvmArgs = [
 
 run {
     args 'server', './config/feeds.yml'
+}
+
+task oneJar(type: OneJar) {
+    mainClass = 'org.sectorzero.app.server.FeedsService'
+    archiveName = 'feeds.jar'
+}
+
+artifacts {
+    oneJar
 }
