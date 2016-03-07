@@ -1,7 +1,7 @@
 # Feeds Demo
 
 # Design & Reasoning
-* Pending Documentation - Some core thoughts here.
+* Pending Documentation - Some core thoughts here. ( Will submit shortly )
 
 # To Execute
 * Download single fat-jar [feeds.jar](https://www.dropbox.com/s/q21e8gul10ftoma/feeds.jar)
