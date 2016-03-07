@@ -4,7 +4,7 @@
 * Pending Documentation - Some core thoughts here.
 
 # To Execute
-* Download single fat-jar [feeds.jar](https://www.dropbox.com/s/8ziwcqxl8n94mcg/feeds-logback.xml)
+* Download single fat-jar [feeds.jar](https://www.dropbox.com/s/q21e8gul10ftoma/feeds.jar)
 * Download the config file [feeds.yml](https://www.dropbox.com/s/x833knqpojkmunj/feeds.yml)
 * Execute 
 ```
