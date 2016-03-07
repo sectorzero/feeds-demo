@@ -17,6 +17,7 @@ java -jar ./feeds.jar server ./feeds.yml
 	* /tmp to be writable - Kafka and Zookeeper logs generated in /tmp/feeds-demo
 	* Ports 10991, 10992 and 10993 need to be opened for listening
 	* ./ needs to be writable for applcation logs 
+* This uses a framework call Servizio, which I put to-gether for my work last year which is a Java services and applicaton framework build based on Dropwizard bundling
 
 # API Demo
 * /swagger shows an UI to the APIs
