@@ -1,0 +1,5 @@
+rootProject.name = 'Feeds-Demo'
+
+include(':Servizio')
+project(':Servizio').projectDir = new File('../Servizio')
+
